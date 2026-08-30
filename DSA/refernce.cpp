@@ -298,7 +298,7 @@ class employee{
         cin >> experience;
     }
     void calculate_salary(){
-        hra = salary * 0.2;
+        hra = salary * 0.2; 
         da = salary * 0.1;
         salary = salary + hra + da;
     }
@@ -312,7 +312,7 @@ class employee{
     }
 };
 
-int main()
+int main(){
     employee emp;
     emp.input();
     emp.calculate_salary();

@@ -3,7 +3,7 @@
 const double PI{3.1415926535897932384626433832795};
 
 class Cylinder
-{
+{ // const prevents accidental modification of the source object.
 public:
     // Constctors
     Cylinder() = default;
