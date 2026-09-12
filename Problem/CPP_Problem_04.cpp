@@ -53,6 +53,3 @@ class Member{
             return member_id;
         }
 };
-//wap to perfroem arithmetic operation on object of 2 different classes using fried function(as member function of second class)
-//wap to perform arithmeitc operation on data member of 2 different classes and store result in dm of 3rd classs.Friend function id mf of 3rd class
-//Wap to perform aritmetic operation on data member of 2 object of same class and store result in another object of same class
