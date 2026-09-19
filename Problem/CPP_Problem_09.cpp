@@ -29,7 +29,7 @@ public:
     }
     friend void operator--(Number &obj);
 };
-void operator--(Number &obj)
+void operator --(Number &obj)
 {
     --obj.value;
 }

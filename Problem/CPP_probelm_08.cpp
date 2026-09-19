@@ -6,7 +6,7 @@
 //negation
 //pre increment
 //pre decrement using friend function
-
+//we can declare friend function in private and public section of class
 #include <iostream>
 #include <string>
 using namespace std;
@@ -17,6 +17,8 @@ class Bank{
         string username;
         int userID;
         double balance;
+        friend class Account;
+
     public:
         Bank(string bname,string uname,int uid,double bal){
             bankname = bname;
@@ -48,7 +50,7 @@ class Bank{
     double get_balance(){
         return balance;
     }
-    friend class Account; // declare account as friend class
+    //friend class Account; // declare account as friend class
 };
 class Account{
     
